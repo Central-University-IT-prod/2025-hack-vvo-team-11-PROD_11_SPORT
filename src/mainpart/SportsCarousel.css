@@ -1,0 +1,76 @@
+/* SportsCarousel.css */
+.sports-carousel {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  background-image: url(../images/stadium_aerial.jpg);
+  border-radius: 10px;
+}
+
+.carousel-button {
+  background-color:tan;
+  border: none;
+  color: rgb(8, 4, 4);
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  background-color: #f1f0f0;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.carousel-button:hover {
+  background-color: rgb(200, 171, 132); 
+}
+.carousel-button:active {
+  background-color: rgb(184, 159, 127);
+}
+
+
+.carousel-cards-container {
+  width: 80%;
+}
+
+.event-card {
+  background-color: #b8b8b8ad;
+  padding: 3.6%;
+  font-family: 'Stapel';
+  font-size: 40px;
+  color:#000000;
+  border: 1px solid #c6c6c693;
+  border-radius: 1px;
+  text-align: center;
+  border-radius: 10px;
+
+
+}
+
+.event-time {
+  font-family: 'Stapel';
+  font-size: large;
+  padding: 10px 5px;
+  border-radius: 10px;
+  background-color: #dfdadac9;
+  box-sizing: border-box;
+  background-color: none;
+  color:rgb(18, 17, 17)
+  
+  
+}
+
+.event-description {
+  margin-top: 10px;
+  font-family: 'Stapel';
+  color:rgb(18, 17, 17);
+  font-size: large;
+  box-sizing: border-box;
+  background-color: #dfdadac9;
+  padding: 10px;
+  border-radius: 10px; 
+}
